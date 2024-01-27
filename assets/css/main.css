@@ -1871,6 +1871,14 @@ section {
   transition-duration: 0.4s;
 }
 
+.heroImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
 .hero .carousel-item::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.7);
@@ -1916,6 +1924,15 @@ section {
   .hero .info h2 {
     font-size: 36px;
   }
+
+  .heroImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
 }
 
 .hero .info p {
