@@ -1615,10 +1615,13 @@ section {
 .service-details h4 {
   font-size: 20px;
   font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .service-details p {
   font-size: 15px;
+  line-height: 26px;
 }
 
 .service-details ul {
@@ -2694,4 +2697,56 @@ section {
 
 .footer .footer-legal .credits a {
   color: var(--color-primary);
+}
+
+/* Add some spacing and style to the industry list */
+.industry-list {
+  list-style: none;
+  padding: 0;
+}
+
+.industry-list li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.industry-list li i {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #28a745; /* You can change the color to your preference */
+}
+.industry-list li span {
+  padding-left: 30px;
+  display: block;
+}
+
+.cta-get-quote {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cta-get-quote p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.cta-get-quote .btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-get-quote .btn-primary:hover {
+  background-color: #0056b3;
 }
